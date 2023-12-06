@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input[type="button"] {
+  border-radius: 45px;
+  height: 80px;
+  width: 80px;
+  font-family: helvetica;
+  font-size: 30px;
+  border: none;
+  margin-bottom: 10px;
+  margin-right: 4px;
+}
+
+.btn3:active {
+    background-color: rgba(128, 128, 128, 0.762);
+}
+
+.btn2:active {
+  background-color: #fafafa;
+  color: #ff9f0a;
+}
+
+.background {
+  background-color: #000000;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 18px;
+  max-width: 350px;
+}
+
+#zero {
+  width: 167.5px;
+  text-align: left;
+  padding-left: 34px;
+}
+
+.btn2 {
+  background-color: #ff9f0a;
+  color: #fafafa;
+  font-size: 18px;
+}
+
+.btn1 {
+  background-color: #a5a5a5;
+}
+
+.btn3 {
+  color: #fafafa;
+  background-color: #333333;
+}
+
+#enter {
+  border: none;
+  background-color: #000000;
+  color: #fafafa;
+  font-size: 35px;
+  width: 340px;
+  height: 120px;
+  text-align: right;
+}
+
+#enter:focus {
+    border-color: transparent;
+    outline: none;
+}
+
+#enter::placeholder {
+  color: #fafafa;
+}
+
+#percent {
+  font-size: 28px;
+}
